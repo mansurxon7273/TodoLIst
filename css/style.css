@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background: rgb(44, 67, 89);
+}
+.crud {
+  margin: 100px auto;
+  max-width: 400px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.title {
+  color: rgb(234, 234, 234);
+  font-size: 30px;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 10px;
+  text-shadow: 0 0 2px white;
+}
+.create {
+  background-color: #e5e5e5;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 4px;
+}
+input {
+  padding: 5px;
+  width: 280px;
+  border-radius: 5px;
+  border: 1px solid rgb(152, 146, 146);
+}
+input:focus {
+  border: 1px solid white;
+  outline: none;
+  box-shadow: 0 0 6px blue;
+}
+.btn {
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 7px;
+}
+.update {
+  display: none;
+  background-color: green;
+  color: #fff;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 7px;
+}
+.read {
+  background-color: #e5e5e5;
+  border-radius: 0 0 5px 5px;
+}
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid;
+  gap: 15px;
+}
+.item .username {
+  flex-grow: 1;
+  text-align: left;
+}
+.fa-trash:hover {
+  color: red;
+}
+.fa-trash {
+  margin-right: 8px;
+}
+.fa-pen-to-square:hover {
+  color: orange;
+}
